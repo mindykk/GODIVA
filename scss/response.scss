@@ -1,0 +1,306 @@
+@media all and (max-width: 1500px) {
+    #wrap #main #section5 .container .gap .wrap .content .slide-container {
+        .next-btn-box {
+            right: -60px;
+        }
+        .prev-btn-box {
+            left: -50px;
+        }
+    }
+}
+
+@media all and (max-width: 1320px) {
+    #wrap #main #section5 .container .gap .wrap .content .slide-container {
+        .slide-view {
+            width: 795px;
+            margin: 0 auto;
+            .slide-wrap {
+                margin-left: -100%;
+            }
+        }
+        .next-btn-box {
+            right: 70px;
+        }
+        .prev-btn-box {
+            left: 80px;
+        }
+    }
+}
+
+@media all and (max-width: 1200px) {
+    #wrap #main #section2 .container .gap .wrap .content {
+        > ul {
+            flex-flow: row wrap;
+            > li {
+                width: 50%;
+                .col-gap {
+                    margin: 15px;
+                }
+            }
+        }
+    }
+
+    #wrap #footer {
+        .top {
+            .container {
+                margin: 0 50px;
+            }
+        }
+        .bottom {
+            .container {
+                margin: 0 50px;
+            }
+        }
+    }
+}
+
+@media all and (max-width: 1024px) {
+    #wrap #header .container .gap .wrap #nav {
+        display: none;
+    }
+
+    #wrap #header .container .gap .wrap #mobile-menu {
+        display: block;
+    }
+
+    #wrap #main #section3 .container .gap .wrap .content {
+        .firstBox {
+            .textBox {
+                left: 55%;
+            }
+        }
+        .secondBox {
+            .textBox {
+                left: 55%;
+            }
+        }
+        .thirdBox {
+            .textBox {
+                left: 55%;
+            }
+        }
+        .fourthBox {
+            .textBox {
+                left: 55%;
+            }
+        }
+        .fifthBox {
+            .textBox {
+                left: 55%;
+            }
+        }
+    }
+
+    #wrap #main #section4 .container .gap .wrap .content ul li .col-gap .col-wrap {
+        a {
+            img {
+                margin: 50px 70px 0 70px;
+            }
+        }
+        .text-box {
+            position: relative;
+            width: 100%;
+            left: 0;
+            p {
+                br {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    #wrap #main #section5 .container .gap .wrap .content .slide-container {
+        .slide-view {
+            width: 530px;
+            margin: 0 auto;
+            .slide-wrap {
+                margin-left: -100%;
+            }
+        }
+        .next-btn-box {
+            right: 150px;
+        }
+        .prev-btn-box {
+            left: 130px;
+        }
+    }
+
+    #wrap #footer {
+        .top {
+            .container {
+                margin: 0 auto;
+                .gap {
+                    .wrap {
+                        .content {
+                            > ul {
+                                flex-flow: row wrap;
+                                text-align: center;
+                                > li {
+                                    width: 100%;
+                                    .col-gap {
+                                        margin: 15px 0;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .bottom {
+            .container {
+                margin: 0 auto;
+                .gap {
+                    .wrap {
+                        .content {
+                            > ul {
+                                flex-flow: row wrap;
+                                text-align: center;
+                                > li {
+                                    width: 100%;
+                                    .col-gap {
+                                        margin: 15px 0;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media all and (max-width: 768px) {
+    #wrap #main #section2 .container .gap .wrap .content {
+        > ul {
+            > li {
+                width: 100%;
+            }
+        }
+    }
+
+    #wrap #main #section3 .container .gap .wrap .content {
+        .firstBox {
+            .textBox {
+                position: relative;
+                left: 0;
+                margin: 30px 0 0 0;
+            }
+        }
+        .secondBox {
+            .textBox {
+                position: relative;
+                left: 0;
+                margin: 30px 0 0 0;
+                p {
+                    br {
+                        display: none;
+                    }
+                }
+            }
+        }
+        .thirdBox {
+            .textBox {
+                position: relative;
+                left: 0;
+                margin: 30px 0 0 0;
+                p {
+                    br {
+                        display: none;
+                    }
+                }
+            }
+        }
+        .fourthBox {
+            .textBox {
+                position: relative;
+                left: 0;
+                margin: 30px 0 0 0;
+            }
+        }
+        .fifthBox {
+            .textBox {
+                position: relative;
+                left: 0;
+                margin: 30px 0 0 0;
+                p {
+                    br {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+
+    #wrap #main #section5 .container .gap .wrap .content .slide-container {
+        .slide-view {
+            width: 265px;
+            margin: 0 auto;
+            .slide-wrap {
+                margin-left: -100%;
+                .slide {
+                    width: 100%;
+                }
+            }
+        }
+        .next-btn-box {
+            right: 120px;
+        }
+        .prev-btn-box {
+            left: 130px;
+        }
+    }
+
+    #wrap #footer {
+        .bottom {
+            .container {
+                margin: 0 10px;
+                .gap {
+                    .wrap {
+                        .content {
+                            > ul {
+                                flex-flow: row wrap;
+                                text-align: center;
+                                > li {
+                                    width: 100%;
+                                    .col-gap {
+                                        margin: 15px 0;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media all and (max-width: 560px) {
+    #wrap #main #section5 .container .gap .wrap .content .slide-container {
+        .next-btn-box {
+            right: 70px;
+        }
+        .prev-btn-box {
+            left: 80px;
+        }
+    }
+}
+
+@media all and (max-width: 480px) {
+    #wrap #main #section3 .container .gap .wrap .title h2 {
+        br {
+            display: none;
+        }
+    }
+
+    #wrap #main #section5 .container .gap .wrap .content .slide-container {
+        .next-btn-box {
+            right: 20px;
+        }
+        .prev-btn-box {
+            left: 30px;
+        }
+    }
+}
